@@ -1,0 +1,25 @@
+header{
+    background-color:  #000;
+    color:#fff;
+    #logo{
+        font-size:  24px;
+
+    }
+    nav {
+        ul {
+            display:flex ;
+            li {
+                a{
+                    display: block ;
+                    padding:20px 40px ;
+                    &:hover{
+                        color:rgb(73, 163, 159)
+
+
+                    }
+                    
+                }
+            }
+        }
+    }
+}

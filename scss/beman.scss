@@ -1,0 +1,56 @@
+*{
+    margin :0;
+    padding:0 ;
+    box-sizing: border-box;
+
+}
+.beman{
+    width:500px ;
+    margin : 100px auto ;
+    padding: 20px;
+    border: 1px solid #d9d9d9;
+    border-radius: 10px;
+    input{
+        display:block ;
+        height: 50px ;
+        margin-bottom:  10px;
+        width:100%;
+        padding:0 20px ;
+
+    }
+    button{
+        display: block;
+        border:none ;
+        outline: none ;
+        background-color:  #111;
+        color:#fff ;
+        height:50px;
+        width :100% ;
+
+    }
+
+    #txtResult {
+        margin-top: 20px;
+        padding:20px;
+        background-color: rgb(2, 99, 163);
+        color:#fff;
+        display: none;
+        justify-content: center;
+        span {
+            margin: 0 10px;
+        }
+    }
+
+    #btnReset {
+
+        display: none;
+        justify-content: center;
+        border:none ;
+        outline: none ;
+        background-color:  #666;
+        height:50px;
+        width :100% ;
+        padding: 20px;
+         
+    }
+}
